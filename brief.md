@@ -16,11 +16,11 @@ Draw a diagram showing the dataflow through the application starting with a form
 Questions
 What is responsible for defining the routes of the games resource?
 ```
-The router is responsible for defining the routes of the games resource.
+The web server is responsible for defining the routes of the games resource. These have been propagated to the router helper (create_router.js).
 ```
 What do you notice about the folder structure? Whats the client responsible for? Whats the server responsible for?
 ```
-The client is responsible for the front-end JavaScript Vue framework. The server is responsible for listening out for requests being made and responds to them.
+The client is responsible for the front-end JavaScript Vue framework. The web server is responsible for listening out for requests being made and responding to them.
 ```
 What are the the responsibilities of server.js?
 ```
